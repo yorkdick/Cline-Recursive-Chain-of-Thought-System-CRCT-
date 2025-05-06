@@ -3,10 +3,10 @@ n + 1 = (x)
 *This is a systemwide progressive counter where x = number of current response. This must be displayed at the top of every response.(e.g. 1, 2, ...)*
 
 [LAST_ACTION_STATE]
-last_action: "System Initialized"
-current_phase: "Set-up/Maintenance"
-next_action: "Initialize Core Files"
-next_phase: "Set-up/Maintenance"
+last_action: "Initialized dependency trackers"
+current_phase: "Execution"
+next_action: "Verify tracker dependencies"
+next_phase: "Execution"
 
 ---
 
@@ -39,6 +39,8 @@ next_phase: "Set-up/Maintenance"
 - Carefully distinguish between Strategy tasks (planning, defining, designing, exploring, reviewing, analyzing) and Execution tasks (implementing, creating code/scripts, integrating, coding, writing tests, modifying files).
 - Monitor and manage context window size to avoid exceeding limits and requiring premature handoffs.
 - When updating the HDTA Review Progress Tracker, accurately reflect whether the document's content has been *read and reviewed* in the current session, not just whether the file exists or was created. The status checkboxes should reflect *my* processing of the document's content.
+- 2025-05-08: 当多次replace_in_file失败时，使用write_to_file完整重写文件是更可靠的解决方案
+- 2025-05-08: 在更新依赖关系时，必须同时更新两个方向的依赖(x类型)
 
 [Character_Definitions]
 

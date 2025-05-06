@@ -1,0 +1,72 @@
+---KEY_DEFINITIONS_START---
+Key Definitions:
+1B: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src
+1Ba: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend
+2A: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs
+2Aa: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/basic-design
+2Ab: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/detail-design
+2Ac: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/test-design
+2B: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src
+2Ba: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main
+2Bb: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test
+3A: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java
+3Aa: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com
+3B: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources
+3Ba: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql
+4A: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/auth
+4Aa: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira
+4B: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/board
+4C: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/sprint
+4D: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/task
+5A: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api
+5B: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/service
+5C: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/util
+5Ca: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request
+5Cb: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response
+5D: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity
+5E: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception
+5F: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper
+5G: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository
+5H: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security
+5I: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service
+5Ia: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl
+5Ib: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces
+---KEY_DEFINITIONS_END---
+
+last_KEY_edit: Assigned keys: 1B, 1Ba, 2A, 2A, 2Aa, 2Aa, 2Ab, 2Ab, 2Ac, 2B, 2Ba, 2Bb, 3A, 3A, 3A, 3A, 3Aa, 3Aa, 3Aa, 3Aa, 3B, 3B, 3B, 3Ba, 3Ba, 3Ba, 4A, 4A, 4A, 4A, 4A, 4Aa, 4Aa, 4Aa, 4B, 4B, 4C, 4C, 4D, 4D, 5A, 5A, 5A, 5B, 5B, 5C, 5C, 5Ca, 5Cb, 5D, 5E, 5F, 5G, 5H, 5I, 5Ia, 5Ib
+last_GRID_edit: Grid content updated (2025-05-08T10:14:07.000000)
+
+---GRID_START---
+X 1B 1Ba 2A 2Aa 2Ab 2Ac 2B 2Ba 2Bb 3A 3Aa 3B 3Ba 4A 4Aa 4B 4C 4D 5A 5B 5C 5Ca 5Cb 5D 5E 5F 5G 5H 5I 5Ia 5Ib
+1B = oxp29
+1Ba = xonpspxp4sppsp3Ssp9Sp
+2A = pnoxxp4x10p12
+2Aa = ppxonp4n10p12
+2Ab = ppxnop4x10p12
+2Ac = p5op25
+2B = pxp4op24
+2Ba = p7op23
+2Bb = p8op22
+3A = ppxnxp4oxn3xn3xp12
+3Aa = ppxnxp4xon3xn3xp12
+3B = ppxnxp4nnoxxnx3np12
+3Ba = ppxnxp4nnxoxnx3np12
+4A = ppxnxp4nnxxon5p12
+4Aa = ppxnxp4xxn3on3xp12
+4B = ppxnxp4nnxxnnon3p12
+4C = ppxnxp4nnxxn3onnp12
+4D = ppxnxp4nnxxn4onp12
+5A = ppxnxp4xxn3xn3op12
+5B = p19op11
+5C = p20op10
+5Ca = p21op9
+5Cb = p22op8
+5D = p23op7
+5E = p24op6
+5F = p25op5
+5G = p26op4
+5H = p27op3
+5I = p28opp
+5Ia = p19xp9op
+5Ib = p30o
+---GRID_END---

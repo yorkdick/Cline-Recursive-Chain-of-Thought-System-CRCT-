@@ -2,3 +2,4 @@
 *.pyc
 *venv*
 *embeddings*
+src/gira-backend/target/

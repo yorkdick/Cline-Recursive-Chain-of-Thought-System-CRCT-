@@ -1,0 +1,1115 @@
+{
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs": {
+    "key_string": "1A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs",
+    "parent_path": null,
+    "tier": 1,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/api_documentation.md": {
+    "key_string": "1A1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/api_documentation.md",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs",
+    "tier": 1,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend": {
+    "key_string": "1Aa",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs",
+    "tier": 1,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src": {
+    "key_string": "2A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend",
+    "tier": 2,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/main": {
+    "key_string": "2Aa",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/main",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src",
+    "tier": 2,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/main/resources": {
+    "key_string": "3A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/main/resources",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/main",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/main/resources/db": {
+    "key_string": "3Aa",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/main/resources/db",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/main/resources",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test": {
+    "key_string": "2Ab",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src",
+    "tier": 2,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java": {
+    "key_string": "3A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com": {
+    "key_string": "3Aa",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com/rayfay": {
+    "key_string": "4A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com/rayfay",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com/rayfay/gira": {
+    "key_string": "4Aa",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com/rayfay/gira",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com/rayfay",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com/rayfay/gira/service": {
+    "key_string": "5A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com/rayfay/gira/service",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources": {
+    "key_string": "3B",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql": {
+    "key_string": "3Ba",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql/auth": {
+    "key_string": "4A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql/auth",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql/board": {
+    "key_string": "4B",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql/board",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql/sprint": {
+    "key_string": "4C",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql/sprint",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql/task": {
+    "key_string": "4D",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql/task",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src/test/resources/sql",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src": {
+    "key_string": "1B",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src",
+    "parent_path": null,
+    "tier": 1,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/Strategy_design_core_architecture.md": {
+    "key_string": "1B1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/Strategy_design_core_architecture.md",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src",
+    "tier": 1,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/example.py": {
+    "key_string": "1B2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/example.py",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src",
+    "tier": 1,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend": {
+    "key_string": "1Ba",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src",
+    "tier": 1,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs": {
+    "key_string": "2A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend",
+    "tier": 2,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/basic-design": {
+    "key_string": "2Aa",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/basic-design",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs",
+    "tier": 2,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/basic-design/database.md": {
+    "key_string": "2Aa1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/basic-design/database.md",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/basic-design",
+    "tier": 2,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/basic-design/requirements.md": {
+    "key_string": "2Aa2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/basic-design/requirements.md",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/basic-design",
+    "tier": 2,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/code-structure.md": {
+    "key_string": "2A1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/code-structure.md",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs",
+    "tier": 2,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/detail-design": {
+    "key_string": "2Ab",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/detail-design",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs",
+    "tier": 2,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/detail-design/backend-design.md": {
+    "key_string": "2Ab1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/detail-design/backend-design.md",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/detail-design",
+    "tier": 2,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/detail-design/backend-development.md": {
+    "key_string": "2Ab2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/detail-design/backend-development.md",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/detail-design",
+    "tier": 2,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/test-design": {
+    "key_string": "2Ac",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/test-design",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs",
+    "tier": 2,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/test-design/backend-test-design.md": {
+    "key_string": "2Ac1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/test-design/backend-test-design.md",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/test-design",
+    "tier": 2,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/pom.xml": {
+    "key_string": "1Ba1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/pom.xml",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend",
+    "tier": 1,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src": {
+    "key_string": "2B",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend",
+    "tier": 2,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main": {
+    "key_string": "2Ba",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src",
+    "tier": 2,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java": {
+    "key_string": "3A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com": {
+    "key_string": "3Aa",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay": {
+    "key_string": "4A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira": {
+    "key_string": "4Aa",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/GiraApplication.java": {
+    "key_string": "4Aa1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/GiraApplication.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "tier": 4,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config": {
+    "key_string": "5A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config/AuthenticationConfig.java": {
+    "key_string": "5A1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config/AuthenticationConfig.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config/SecurityBeanConfig.java": {
+    "key_string": "5A2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config/SecurityBeanConfig.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config/SecurityConfig.java": {
+    "key_string": "5A3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config/SecurityConfig.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller": {
+    "key_string": "5B",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/AuthController.java": {
+    "key_string": "5B1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/AuthController.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/BoardController.java": {
+    "key_string": "5B2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/BoardController.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/SprintController.java": {
+    "key_string": "5B3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/SprintController.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/TaskController.java": {
+    "key_string": "5B4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/TaskController.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/UserController.java": {
+    "key_string": "5B5",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/UserController.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto": {
+    "key_string": "5C",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request": {
+    "key_string": "5Ca",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/CreateBoardRequest.java": {
+    "key_string": "5Ca1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/CreateBoardRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/CreateSprintRequest.java": {
+    "key_string": "5Ca2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/CreateSprintRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/CreateTaskRequest.java": {
+    "key_string": "5Ca3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/CreateTaskRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/CreateUserRequest.java": {
+    "key_string": "5Ca4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/CreateUserRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/LoginRequest.java": {
+    "key_string": "5Ca5",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/LoginRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/RefreshTokenRequest.java": {
+    "key_string": "5Ca6",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/RefreshTokenRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/RegisterRequest.java": {
+    "key_string": "5Ca7",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/RegisterRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdateBoardRequest.java": {
+    "key_string": "5Ca8",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdateBoardRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdatePasswordRequest.java": {
+    "key_string": "5Ca9",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdatePasswordRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdateSprintRequest.java": {
+    "key_string": "5Ca10",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdateSprintRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdateTaskRequest.java": {
+    "key_string": "5Ca11",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdateTaskRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdateTaskStatusRequest.java": {
+    "key_string": "5Ca12",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdateTaskStatusRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdateUserRequest.java": {
+    "key_string": "5Ca13",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request/UpdateUserRequest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/request",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response": {
+    "key_string": "5Cb",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response/BoardResponse.java": {
+    "key_string": "5Cb1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response/BoardResponse.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response/LoginResponse.java": {
+    "key_string": "5Cb2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response/LoginResponse.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response/SprintResponse.java": {
+    "key_string": "5Cb3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response/SprintResponse.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response/TaskResponse.java": {
+    "key_string": "5Cb4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response/TaskResponse.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response/UserResponse.java": {
+    "key_string": "5Cb5",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response/UserResponse.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/dto/response",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity": {
+    "key_string": "5D",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/BaseEntity.java": {
+    "key_string": "5D1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/BaseEntity.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/Board.java": {
+    "key_string": "5D2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/Board.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/BoardStatus.java": {
+    "key_string": "5D3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/BoardStatus.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/Sprint.java": {
+    "key_string": "5D4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/Sprint.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/SprintStatus.java": {
+    "key_string": "5D5",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/SprintStatus.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/Task.java": {
+    "key_string": "5D6",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/Task.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/TaskPriority.java": {
+    "key_string": "5D7",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/TaskPriority.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/TaskStatus.java": {
+    "key_string": "5D8",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/TaskStatus.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/User.java": {
+    "key_string": "5D9",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/User.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/UserRole.java": {
+    "key_string": "5D10",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/UserRole.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/UserStatus.java": {
+    "key_string": "5D11",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity/UserStatus.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/entity",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception": {
+    "key_string": "5E",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/BadRequestException.java": {
+    "key_string": "5E1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/BadRequestException.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/BoardArchivedException.java": {
+    "key_string": "5E2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/BoardArchivedException.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/DuplicateUsernameException.java": {
+    "key_string": "5E3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/DuplicateUsernameException.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/ErrorResponse.java": {
+    "key_string": "5E4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/ErrorResponse.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/GlobalExceptionHandler.java": {
+    "key_string": "5E5",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/GlobalExceptionHandler.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/InvalidSprintDateException.java": {
+    "key_string": "5E6",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/InvalidSprintDateException.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/ResourceNotFoundException.java": {
+    "key_string": "5E7",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/ResourceNotFoundException.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/SprintHasUnfinishedTasksException.java": {
+    "key_string": "5E8",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/SprintHasUnfinishedTasksException.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/UserAlreadyExistsException.java": {
+    "key_string": "5E9",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception/UserAlreadyExistsException.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/exception",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper": {
+    "key_string": "5F",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper/BoardMapper.java": {
+    "key_string": "5F1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper/BoardMapper.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper/SprintMapper.java": {
+    "key_string": "5F2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper/SprintMapper.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper/TaskMapper.java": {
+    "key_string": "5F3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper/TaskMapper.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper/UserMapper.java": {
+    "key_string": "5F4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper/UserMapper.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/mapper",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository": {
+    "key_string": "5G",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository/BoardRepository.java": {
+    "key_string": "5G1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository/BoardRepository.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository/SprintRepository.java": {
+    "key_string": "5G2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository/SprintRepository.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository/TaskRepository.java": {
+    "key_string": "5G3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository/TaskRepository.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository/UserRepository.java": {
+    "key_string": "5G4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository/UserRepository.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/repository",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security": {
+    "key_string": "5H",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security/CustomAuthenticationEntryPoint.java": {
+    "key_string": "5H1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security/CustomAuthenticationEntryPoint.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security/JwtAuthenticationFilter.java": {
+    "key_string": "5H2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security/JwtAuthenticationFilter.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security/JwtTokenProvider.java": {
+    "key_string": "5H3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security/JwtTokenProvider.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/security",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service": {
+    "key_string": "5I",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl": {
+    "key_string": "5Ia",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/AuthServiceImpl.java": {
+    "key_string": "5Ia1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/AuthServiceImpl.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/BoardServiceImpl.java": {
+    "key_string": "5Ia2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/BoardServiceImpl.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/SprintServiceImpl.java": {
+    "key_string": "5Ia3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/SprintServiceImpl.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/TaskServiceImpl.java": {
+    "key_string": "5Ia4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/TaskServiceImpl.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/UserServiceImpl.java": {
+    "key_string": "5Ia5",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/UserServiceImpl.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces": {
+    "key_string": "5Ib",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces/AuthService.java": {
+    "key_string": "5Ib1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces/AuthService.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces/BoardService.java": {
+    "key_string": "5Ib2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces/BoardService.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces/SprintService.java": {
+    "key_string": "5Ib3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces/SprintService.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces/TaskService.java": {
+    "key_string": "5Ib4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces/TaskService.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces/UserService.java": {
+    "key_string": "5Ib5",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces/UserService.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/interfaces",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources": {
+    "key_string": "3B",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/application-dev.yml": {
+    "key_string": "3B1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/application-dev.yml",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources",
+    "tier": 3,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/application-prod.yml": {
+    "key_string": "3B2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/application-prod.yml",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources",
+    "tier": 3,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/application.yml": {
+    "key_string": "3B3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/application.yml",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources",
+    "tier": 3,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db": {
+    "key_string": "3Ba",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db/data-h2.sql": {
+    "key_string": "3Ba1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db/data-h2.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db",
+    "tier": 3,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db/data-pg.sql": {
+    "key_string": "3Ba2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db/data-pg.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db",
+    "tier": 3,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db/schema-h2.sql": {
+    "key_string": "3Ba3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db/schema-h2.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db",
+    "tier": 3,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db/schema-pg.sql": {
+    "key_string": "3Ba4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db/schema-pg.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/db",
+    "tier": 3,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test": {
+    "key_string": "2Bb",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src",
+    "tier": 2,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java": {
+    "key_string": "3A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com": {
+    "key_string": "3Aa",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay": {
+    "key_string": "4A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira": {
+    "key_string": "4Aa",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api": {
+    "key_string": "5A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/AuthControllerTest.java": {
+    "key_string": "5A1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/AuthControllerTest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/BoardControllerTest.java": {
+    "key_string": "5A2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/BoardControllerTest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/SprintControllerTest.java": {
+    "key_string": "5A3",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/SprintControllerTest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/TaskControllerTest.java": {
+    "key_string": "5A4",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/TaskControllerTest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/UserControllerTest.java": {
+    "key_string": "5A5",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/UserControllerTest.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/service": {
+    "key_string": "5B",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/service",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/util": {
+    "key_string": "5C",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/util",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira",
+    "tier": 5,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/util/PasswordGenerator.java": {
+    "key_string": "5C1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/util/PasswordGenerator.java",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/util",
+    "tier": 5,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources": {
+    "key_string": "3B",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/application.yml": {
+    "key_string": "3B1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/application.yml",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources",
+    "tier": 3,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql": {
+    "key_string": "3Ba",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources",
+    "tier": 3,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/auth": {
+    "key_string": "4A",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/auth",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/auth/cleanup_auth_test.sql": {
+    "key_string": "4A1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/auth/cleanup_auth_test.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/auth",
+    "tier": 4,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/auth/init_auth_test.sql": {
+    "key_string": "4A2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/auth/init_auth_test.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/auth",
+    "tier": 4,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/board": {
+    "key_string": "4B",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/board",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/board/cleanup_board_test.sql": {
+    "key_string": "4B1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/board/cleanup_board_test.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/board",
+    "tier": 4,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/board/init_board_test.sql": {
+    "key_string": "4B2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/board/init_board_test.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/board",
+    "tier": 4,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/sprint": {
+    "key_string": "4C",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/sprint",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/sprint/cleanup_sprint_test.sql": {
+    "key_string": "4C1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/sprint/cleanup_sprint_test.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/sprint",
+    "tier": 4,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/sprint/init_sprint_test.sql": {
+    "key_string": "4C2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/sprint/init_sprint_test.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/sprint",
+    "tier": 4,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/task": {
+    "key_string": "4D",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/task",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql",
+    "tier": 4,
+    "is_directory": true
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/task/cleanup_task_test.sql": {
+    "key_string": "4D1",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/task/cleanup_task_test.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/task",
+    "tier": 4,
+    "is_directory": false
+  },
+  "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/task/init_task_test.sql": {
+    "key_string": "4D2",
+    "norm_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/task/init_task_test.sql",
+    "parent_path": "d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/resources/sql/task",
+    "tier": 4,
+    "is_directory": false
+  }
+}

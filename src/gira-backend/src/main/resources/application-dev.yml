@@ -1,0 +1,37 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:./data/gira;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH
+    username: sa
+    password: password
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        globally_quoted_identifiers: true
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:db/schema-h2.sql
+      # data-locations: classpath:db/data-h2.sql
+      platform: h2
+
+security:
+  jwt:
+    secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+    expiration: 86400000  # 24小时
+
+logging:
+  level:
+    root: INFO
+    com.rayfay.gira: DEBUG
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG 

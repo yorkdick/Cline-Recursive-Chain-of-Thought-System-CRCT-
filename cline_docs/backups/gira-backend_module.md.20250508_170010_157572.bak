@@ -1,0 +1,54 @@
+---KEY_DEFINITIONS_START---
+Key Definitions:
+1Ba: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend
+1Ba1: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/pom.xml
+2A: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/docs/gira-backend/src
+2A1: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/code-structure.md
+2Ab1: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/docs/detail-design/backend-design.md
+2B: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src
+3B1: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/application-dev.yml
+3B2: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/resources/application-prod.yml
+4Aa1: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/GiraApplication.java
+5A1: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config/AuthenticationConfig.java
+5A2: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config/SecurityBeanConfig.java
+5A3: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/config/SecurityConfig.java
+5A4: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/TaskControllerTest.java
+5A5: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/test/java/com/rayfay/gira/api/UserControllerTest.java
+5B2: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/BoardController.java
+5B3: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/SprintController.java
+5B5: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/controller/UserController.java
+5Ia2: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/BoardServiceImpl.java
+5Ia3: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/SprintServiceImpl.java
+5Ia4: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/TaskServiceImpl.java
+5Ia5: d:/Work/rayfay/Cline-Recursive-Chain-of-Thought-System-CRCT-/src/gira-backend/src/main/java/com/rayfay/gira/service/impl/UserServiceImpl.java
+---KEY_DEFINITIONS_END---
+
+last_KEY_edit: Assigned keys: 1Ba, 1Ba1, 2A, 2A, 2A1, 2Ab1, 2B, 3B1, 3B1, 3B2, 4Aa1, 5A1, 5A1, 5A2, 5A2, 5A3, 5A3, 5A4, 5A5, 5B2, 5B3, 5B5, 5Ia2, 5Ia3, 5Ia4, 5Ia5
+last_GRID_edit: Grid content updated (2025-05-08T10:11:58.974714)
+
+---GRID_START---
+X 1Ba 1Ba1 2A 2A1 2Ab1 2B 3B1 3B2 4Aa1 5A1 5A2 5A3 5A4 5A5 5B2 5B3 5B5 5Ia2 5Ia3 5Ia4 5Ia5
+1Ba = oxnx18
+1Ba1 = xopSsps4S4s4S3
+2A = nponnpn15
+2A1 = xSnonpn15
+2Ab1 = xsnnopn15
+2B = xp4ox15
+3B1 = xsn3xon14
+3B2 = xsn3xnon13
+4Aa1 = xsn3xnnon12
+5A1 = xsn3xn3on11
+5A2 = xSn3xn4on10
+5A3 = xSn3xn5on9
+5A4 = xSn3xn6on8
+5A5 = xSn3xn7on7
+5B2 = xsn3xn8on6
+5B3 = xsn3xn9on5
+5B5 = xsn3xn10on4
+5Ia2 = xsn3xn11on3
+5Ia3 = xSn3xn12onn
+5Ia4 = xSn3xn13on
+5Ia5 = xSn3xn14o
+---GRID_END---
+
+---mini_tracker_end---
