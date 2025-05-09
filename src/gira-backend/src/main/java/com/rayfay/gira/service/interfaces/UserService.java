@@ -4,6 +4,7 @@ import com.rayfay.gira.dto.request.CreateUserRequest;
 import com.rayfay.gira.dto.request.UpdateUserRequest;
 import com.rayfay.gira.dto.response.UserResponse;
 import com.rayfay.gira.entity.User;
+import com.rayfay.gira.entity.UserRole;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -22,4 +23,5 @@ public interface UserService extends UserDetailsService {
     Page<UserResponse> getAllUsers(Pageable pageable);
 
     void deleteUser(Long id);
+
 }

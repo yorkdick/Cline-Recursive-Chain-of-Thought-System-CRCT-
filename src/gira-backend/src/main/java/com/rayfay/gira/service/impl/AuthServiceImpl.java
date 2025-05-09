@@ -31,6 +31,10 @@ public class AuthServiceImpl implements AuthService {
         String accessToken = jwtTokenProvider.generateToken(userDetails);
         String refreshToken = jwtTokenProvider.generateRefreshToken(userDetails);
 
+        // 将token添加到用户token集合
+        jwtTokenProvider.addUserToken(userDetails.getUsername(), accessToken);
+        jwtTokenProvider.addUserToken(userDetails.getUsername(), refreshToken);
+
         return LoginResponse.builder()
                 .accessToken(accessToken)
                 .refreshToken(refreshToken)
@@ -44,7 +48,12 @@ public class AuthServiceImpl implements AuthService {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         if (authentication != null && authentication.getCredentials() != null) {
             String token = authentication.getCredentials().toString();
+            String username = authentication.getName();
+
+            // 1. 加入黑名单
             jwtTokenProvider.blacklistToken(token);
+            // 2. 从userTokens移除
+            jwtTokenProvider.removeUserToken(username, token);
         }
         SecurityContextHolder.clearContext();
     }
@@ -67,6 +76,10 @@ public class AuthServiceImpl implements AuthService {
             if (jwtTokenProvider.isTokenValid(token, userDetails)) {
                 String newAccessToken = jwtTokenProvider.generateToken(userDetails);
                 String newRefreshToken = jwtTokenProvider.generateRefreshToken(userDetails);
+
+                // 将新token添加到用户token集合
+                jwtTokenProvider.addUserToken(username, newAccessToken);
+                jwtTokenProvider.addUserToken(username, newRefreshToken);
 
                 return LoginResponse.builder()
                         .accessToken(newAccessToken)

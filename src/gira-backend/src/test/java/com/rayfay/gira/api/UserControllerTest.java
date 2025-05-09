@@ -33,12 +33,28 @@ class UserControllerTest {
         @Autowired
         private ObjectMapper objectMapper;
 
+        private String superAdmin;
         private String adminToken;
         private String developerToken;
+        private String newUserToken;
         private Long newUserId;
+        private Long newAdminId;
+        private Long adminId;
+        private Long superAdminId;
 
         @BeforeAll
         void setUp() throws Exception {
+                // SuperAdmin
+                LoginRequest superLogin = new LoginRequest();
+                superLogin.setUsername("admin");
+                superLogin.setPassword("admin123");
+                MvcResult superResult = mockMvc.perform(post("/api/auth/login")
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(superLogin)))
+                                .andReturn();
+                superAdmin = objectMapper.readTree(superResult.getResponse().getContentAsString())
+                                .get("accessToken").asText();
+
                 // 获取管理员token
                 LoginRequest adminLogin = new LoginRequest();
                 adminLogin.setUsername("manager");
@@ -89,6 +105,20 @@ class UserControllerTest {
 
         @Test
         @Order(2)
+        void newUserLogin_ShouldSucceed() throws Exception {
+                LoginRequest loginRequest = new LoginRequest();
+                loginRequest.setUsername("newuser");
+                loginRequest.setPassword("password");
+                MvcResult newUserResult = mockMvc.perform(post("/api/auth/login")
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(loginRequest)))
+                                .andReturn();
+                newUserToken = objectMapper.readTree(newUserResult.getResponse().getContentAsString())
+                                .get("accessToken").asText();
+        }
+
+        @Test
+        @Order(3)
         void createUser_AsDeveloper_ShouldReturnForbidden() throws Exception {
                 CreateUserRequest request = new CreateUserRequest();
                 request.setUsername("anotheruser");
@@ -105,7 +135,7 @@ class UserControllerTest {
         }
 
         @Test
-        @Order(3)
+        @Order(4)
         void createUser_WithDuplicateUsername_ShouldReturnBadRequest() throws Exception {
                 CreateUserRequest request = new CreateUserRequest();
                 request.setUsername("newuser"); // 使用已存在的用户名
@@ -120,26 +150,6 @@ class UserControllerTest {
                                 .content(objectMapper.writeValueAsString(request)))
                                 .andExpect(status().isConflict())
                                 .andExpect(jsonPath("$.message").value("用户名已存在"));
-        }
-
-        @Test
-        @Order(4)
-        void createUser_AsAdmin_CreateAdminRole_ShouldSucceed() throws Exception {
-                CreateUserRequest request = new CreateUserRequest();
-                request.setUsername("newadmin");
-                request.setPassword("password");
-                request.setEmail("newadmin@example.com");
-                request.setFullName("New Admin");
-                request.setRole(UserRole.ADMIN);
-
-                mockMvc.perform(post("/api/users")
-                                .header("Authorization", "Bearer " + adminToken)
-                                .contentType(MediaType.APPLICATION_JSON)
-                                .content(objectMapper.writeValueAsString(request)))
-                                .andExpect(status().isOk())
-                                .andExpect(jsonPath("$.username").value("newadmin"))
-                                .andExpect(jsonPath("$.email").value("newadmin@example.com"))
-                                .andExpect(jsonPath("$.role").value("ADMIN"));
         }
 
         @Test
@@ -254,23 +264,224 @@ class UserControllerTest {
         }
 
         @Test
-        @Order(12)
-        void deleteUser_AsAdmin_ShouldSucceed() throws Exception {
-                mockMvc.perform(delete("/api/users/{id}", newUserId)
+        @Order(12) // 修改管理员角色
+        void updateAdminRole_ShouldSucceed() throws Exception {
+                // 管理员ID
+                MvcResult adminResult = mockMvc.perform(get("/api/users/current")
                                 .header("Authorization", "Bearer " + adminToken))
-                                .andExpect(status().isOk());
+                                .andReturn();
+                adminId = objectMapper.readTree(adminResult.getResponse().getContentAsString())
+                                .get("id").asLong();
 
-                // 验证用户已被删除
-                mockMvc.perform(get("/api/users/{id}", newUserId)
-                                .header("Authorization", "Bearer " + adminToken))
-                                .andExpect(status().isNotFound());
+                UpdateUserRequest request = new UpdateUserRequest();
+                request.setRole(UserRole.DEVELOPER);
+
+                mockMvc.perform(put("/api/users/{id}", adminId)
+                                .header("Authorization", "Bearer " + superAdmin)
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(request)))
+                                .andExpect(status().isOk());
         }
 
         @Test
-        @Order(13)
+        @Order(13) // 修改管理员角色, 只剩最后一个管理员
+        void updateAdminRole_ShouldFailed() throws Exception {
+                // 管理员ID
+                MvcResult adminResult = mockMvc.perform(get("/api/users/current")
+                                .header("Authorization", "Bearer " + superAdmin))
+                                .andReturn();
+                superAdminId = objectMapper.readTree(adminResult.getResponse().getContentAsString())
+                                .get("id").asLong();
+
+                UpdateUserRequest request = new UpdateUserRequest();
+                request.setRole(UserRole.DEVELOPER);
+
+                mockMvc.perform(put("/api/users/{id}", superAdminId)
+                                .header("Authorization", "Bearer " + superAdmin)
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(request)))
+                                .andExpect(status().isBadRequest());
+        }
+
+        @Test
+        @Order(14) // 创建新管理员
+        void createUser_AsAdmin_CreateAdminRole_ShouldSucceed() throws Exception {
+                CreateUserRequest request = new CreateUserRequest();
+                request.setUsername("newadmin");
+                request.setPassword("password");
+                request.setEmail("newadmin@example.com");
+                request.setFullName("New Admin");
+                request.setRole(UserRole.ADMIN);
+
+                mockMvc.perform(post("/api/users")
+                                .header("Authorization", "Bearer " + superAdmin)
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(request)))
+                                .andExpect(status().isOk())
+                                .andExpect(jsonPath("$.username").value("newadmin"))
+                                .andExpect(jsonPath("$.email").value("newadmin@example.com"))
+                                .andExpect(jsonPath("$.role").value("ADMIN"));
+        }
+
+        @Test
+        @Order(15)
+        void getUsers_AsNewCreatedAdmin_ShouldReturnAllUsers() throws Exception {
+                LoginRequest loginRequest = new LoginRequest();
+                loginRequest.setUsername("newadmin");
+                loginRequest.setPassword("password");
+                MvcResult newUserResult = mockMvc.perform(post("/api/auth/login")
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(loginRequest)))
+                                .andReturn();
+                String newAdminToken = objectMapper.readTree(newUserResult.getResponse().getContentAsString())
+                                .get("accessToken").asText();
+
+                mockMvc.perform(get("/api/users")
+                                .header("Authorization", "Bearer " + newAdminToken))
+                                .andExpect(status().isOk())
+                                .andExpect(jsonPath("$.content").isArray())
+                                .andExpect(jsonPath("$.totalElements").isNumber());
+
+                // 管理员ID
+                MvcResult adminResult = mockMvc.perform(get("/api/users/current")
+                                .header("Authorization", "Bearer " + newAdminToken))
+                                .andReturn();
+                newAdminId = objectMapper.readTree(adminResult.getResponse().getContentAsString())
+                                .get("id").asLong();
+        }
+
+        @Test
+        @Order(16)
+        void updateUserRole_AsAdmin_ShouldSucceed() throws Exception {
+                UpdateUserRequest request = new UpdateUserRequest();
+                request.setRole(UserRole.ADMIN);
+
+                mockMvc.perform(put("/api/users/{id}", newUserId)
+                                .header("Authorization", "Bearer " + superAdmin)
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(request)))
+                                .andExpect(status().isOk())
+                                .andExpect(jsonPath("$.role").value("ADMIN"));
+        }
+
+        @Test
+        @Order(17)
+        void testTokenInvalidAfterRoleUpdate() throws Exception {
+                // 验证角色更新后原token失效
+                mockMvc.perform(get("/api/users/current")
+                                .header("Authorization", "Bearer " + newUserToken))
+                                .andExpect(status().isUnauthorized());
+        }
+
+        @Test
+        @Order(18)
+        void getUsers_AsNewUpdatedAdmin_ShouldReturnAllUsers() throws Exception {
+                LoginRequest loginRequest = new LoginRequest();
+                loginRequest.setUsername("newuser");
+                loginRequest.setPassword("password");
+                MvcResult newUserResult = mockMvc.perform(post("/api/auth/login")
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(loginRequest)))
+                                .andReturn();
+                newUserToken = objectMapper.readTree(newUserResult.getResponse().getContentAsString())
+                                .get("accessToken").asText();
+
+                mockMvc.perform(get("/api/users")
+                                .header("Authorization", "Bearer " + newUserToken))
+                                .andExpect(status().isOk())
+                                .andExpect(jsonPath("$.content").isArray())
+                                .andExpect(jsonPath("$.totalElements").isNumber());
+        }
+
+        @Test
+        @Order(19)
+        void updateUserRole_AsDeveloper_ShouldReturnForbidden() throws Exception {
+                UpdateUserRequest request = new UpdateUserRequest();
+                request.setRole(UserRole.ADMIN);
+
+                mockMvc.perform(put("/api/users/{id}", newUserId)
+                                .header("Authorization", "Bearer " + developerToken)
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(request)))
+                                .andExpect(status().isForbidden());
+        }
+
+        @Test
+        @Order(20)
+        void updateSelfInfo_ShouldSucceed() throws Exception {
+                UpdateUserRequest request = new UpdateUserRequest();
+                request.setEmail("selfupdate@example.com");
+                request.setFullName("Self Updated");
+
+                // 获取当前用户ID
+                MvcResult userResult = mockMvc.perform(get("/api/users/current")
+                                .header("Authorization", "Bearer " + developerToken))
+                                .andReturn();
+                Long userId = objectMapper.readTree(userResult.getResponse().getContentAsString())
+                                .get("id").asLong();
+
+                mockMvc.perform(put("/api/users/{id}", userId)
+                                .header("Authorization", "Bearer " + developerToken)
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(request)))
+                                .andExpect(status().isOk())
+                                .andExpect(jsonPath("$.email").value("selfupdate@example.com"))
+                                .andExpect(jsonPath("$.fullName").value("Self Updated"));
+        }
+
+        @Test
+        @Order(21)
+        void updateOtherUserInfo_AsDeveloper_ShouldReturnForbidden() throws Exception {
+                UpdateUserRequest request = new UpdateUserRequest();
+                request.setEmail("hacked@example.com");
+                request.setFullName("Hacked User");
+
+                mockMvc.perform(put("/api/users/{id}", newUserId)
+                                .header("Authorization", "Bearer " + developerToken)
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .content(objectMapper.writeValueAsString(request)))
+                                .andExpect(status().isForbidden());
+        }
+
+        @Test
+        @Order(22)
         void deleteUser_AsDeveloper_ShouldReturnForbidden() throws Exception {
                 mockMvc.perform(delete("/api/users/{id}", newUserId)
                                 .header("Authorization", "Bearer " + developerToken))
                                 .andExpect(status().isForbidden());
+        }
+
+        @Test
+        @Order(23)
+        void deleteUser_AsAdmin_ShouldSucceed() throws Exception {
+                mockMvc.perform(delete("/api/users/{id}", newUserId)
+                                .header("Authorization", "Bearer " + superAdmin))
+                                .andExpect(status().isOk());
+
+                // 验证用户已被删除
+                mockMvc.perform(get("/api/users/{id}", newUserId)
+                                .header("Authorization", "Bearer " + superAdmin))
+                                .andExpect(status().isNotFound());
+        }
+
+        @Test
+        @Order(24)
+        void testTokenInvalidAfterUserDeleted() throws Exception {
+                // 验证用户删除后原token失效
+                mockMvc.perform(get("/api/users/current")
+                                .header("Authorization", "Bearer " + newUserToken))
+                                .andExpect(status().isUnauthorized());
+        }
+
+        @Test
+        @Order(24)
+        void deleteFinalAdmin_ShouldFailed() throws Exception {
+                mockMvc.perform(delete("/api/users/{id}", newAdminId)
+                                .header("Authorization", "Bearer " + superAdmin))
+                                .andExpect(status().isOk());
+
+                mockMvc.perform(delete("/api/users/{id}", superAdminId)
+                                .header("Authorization", "Bearer " + superAdmin))
+                                .andExpect(status().isBadRequest());
         }
 }

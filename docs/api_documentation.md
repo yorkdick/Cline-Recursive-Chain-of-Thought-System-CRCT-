@@ -28,11 +28,15 @@
   {
     "email": "string",
     "fullName": "string",
-    "status": "ACTIVE|INACTIVE"
+    "status": "ACTIVE|INACTIVE",
+    "role": "ADMIN|USER"
   }
   ```
 - **响应**: UserResponse
-- **校验**: 邮箱格式
+- **校验**: 
+  - 邮箱格式
+  - 角色修改需要管理员权限
+  - 不能修改最后一个管理员的角色
 
 ### 1.3 修改密码
 - **方法**: PUT

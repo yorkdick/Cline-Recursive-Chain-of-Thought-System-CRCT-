@@ -52,19 +52,23 @@
 
 | 测试功能 | 测试场景 | 输入 | 预期输出 | 验证点 |
 |---------|---------|------|----------|--------|
-| 创建用户 | 管理员创建用户 | {"username": "new", "password": "pass", "email": "test@test.com", "fullName": "Test User", "role": "DEVELOPER"} | {"id": 1, "username": "new", "email": "test@test.com", "role": "DEVELOPER"} | HTTP 201 |
-| 创建用户 | 普通用户创建 | 同上 | {"error": "无权限"} | HTTP 403 |
-| 创建用户 | 用户名已存在 | 同上 | {"error": "用户名已存在"} | HTTP 409 |
-| 创建用户 | 邮箱已存在 | 同上 | {"error": "邮箱已存在"} | HTTP 409 |
-| 更新用户 | 更新自己信息 | {"email": "new@test.com", "fullName": "New Name"} | {"id": 1, "email": "new@test.com", "fullName": "New Name"} | HTTP 200 |
-| 更新用户 | 更新他人信息 | 同上 | {"error": "无权限"} | HTTP 403 |
-| 修改密码 | 正确的原密码 | {"oldPassword": "old", "newPassword": "new"} | 无返回内容 | HTTP 200 |
-| 修改密码 | 错误的原密码 | {"oldPassword": "wrong", "newPassword": "new"} | {"error": "原密码错误"} | HTTP 400 |
-| 删除用户 | 管理员删除用户 | DELETE /api/users/1 | 无返回内容 | HTTP 200 |
-| 删除用户 | 删除唯一管理员 | DELETE /api/users/1 | {"error": "系统必须保留至少一个管理员账号"} | HTTP 400 |
-| 获取用户列表 | 管理员查询 | GET /api/users?page=0&size=10 | {"content": [...], "totalElements": 100} | HTTP 200 |
-| 获取用户列表 | 普通用户查询 | GET /api/users | {"error": "无权限"} | HTTP 403 |
-| 获取当前用户 | 已登录用户 | GET /api/users/current | {"id": 1, "username": "test"} | HTTP 200 |
+| 创建用户 | 管理员创建开发者用户 | {"username": "newuser", "password": "password", "email": "newuser@example.com", "fullName": "New User", "role": "DEVELOPER"} | {"username": "newuser", "email": "newuser@example.com", "role": "DEVELOPER"} | HTTP 200 |
+| 创建用户 | 开发者尝试创建用户 | 同上 | 无返回内容 | HTTP 403 |
+| 创建用户 | 用户名重复 | {"username": "newuser", ...} | {"message": "用户名已存在"} | HTTP 409 |
+| 创建用户 | 超级管理员创建管理员 | {"username": "newadmin", "role": "ADMIN"} | {"role": "ADMIN"} | HTTP 200 |
+| 更新用户 | 管理员更新用户信息 | {"email": "updated@example.com", "fullName": "Updated User"} | {"email": "updated@example.com", "fullName": "Updated User"} | HTTP 200 |
+| 更新用户 | 开发者尝试更新他人信息 | 同上 | 无返回内容 | HTTP 403 |
+| 更新用户 | 用户更新自己信息 | {"email": "selfupdate@example.com", "fullName": "Self Updated"} | {"email": "selfupdate@example.com", "fullName": "Self Updated"} | HTTP 200 |
+| 更新用户角色 | 超级管理员修改角色 | {"role": "ADMIN"} | {"role": "ADMIN"} | HTTP 200 |
+| 更新用户角色 | 修改最后一个管理员 | {"role": "DEVELOPER"} | 无返回内容 | HTTP 400 |
+| 修改密码 | 用户修改自己密码 | {"oldPassword": "password", "newPassword": "newpassword"} | 无返回内容 | HTTP 200 |
+| 修改密码 | 旧密码错误 | {"oldPassword": "wrong", "newPassword": "newpassword"} | {"message": "原密码错误"} | HTTP 400 |
+| 获取当前用户 | 已登录用户查询 | GET /api/users/current | {"username": "developer", "role": "DEVELOPER"} | HTTP 200 |
+| 获取用户列表 | 管理员查询用户列表 | GET /api/users | {"content": [...], "totalElements": N} | HTTP 200 |
+| 获取用户列表 | 开发者尝试查询列表 | GET /api/users | 无返回内容 | HTTP 403 |
+| 删除用户 | 超级管理员删除用户 | DELETE /api/users/{id} | 无返回内容 | HTTP 200 |
+| 删除用户 | 开发者尝试删除用户 | DELETE /api/users/{id} | 无返回内容 | HTTP 403 |
+| 删除用户 | 删除最后一个管理员 | DELETE /api/users/{id} | 无返回内容 | HTTP 400 |
 
 ### 4.3 看板模块测试用例
 
@@ -150,4 +154,4 @@
 - 测试执行结果统计
 - 代码覆盖率报告
 - 测试失败分析
-- 性能指标统计 
+- 性能指标统计

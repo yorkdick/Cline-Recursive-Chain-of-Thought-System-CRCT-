@@ -21,6 +21,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import com.rayfay.gira.security.JwtTokenProvider;
 
 @Service
 @RequiredArgsConstructor
@@ -29,6 +30,7 @@ public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
     private final UserMapper userMapper;
+    private final JwtTokenProvider jwtTokenProvider;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -38,7 +40,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     @Transactional
-    public UserResponse createUser(CreateUserRequest request) {
+    public synchronized UserResponse createUser(CreateUserRequest request) {
         if (userRepository.existsByUsername(request.getUsername())) {
             throw new UserAlreadyExistsException("用户名已存在");
         }
@@ -60,17 +62,35 @@ public class UserServiceImpl implements UserService {
 
     @Override
     @Transactional
-    public UserResponse updateUser(Long id, UpdateUserRequest request) {
+    public synchronized UserResponse updateUser(Long id, UpdateUserRequest request) {
         User user = getUserOrThrow(id);
-
         String currentUsername = SecurityContextHolder.getContext().getAuthentication().getName();
         User currentUser = userRepository.findByUsername(currentUsername)
                 .orElseThrow(() -> new ResourceNotFoundException("用户不存在"));
 
+        boolean roleIsChanged = false;
+        // 角色修改权限检查
+        if (request.getRole() != null && request.getRole() != user.getRole()) {
+            if (!currentUser.getRole().equals(UserRole.ADMIN)) {
+                throw new AccessDeniedException("无权修改用户角色");
+            }
+            // 防止修改最后一个管理员
+            if (user.getRole() == UserRole.ADMIN && request.getRole() != UserRole.ADMIN) {
+                long adminCount = userRepository.countByRole(UserRole.ADMIN);
+                if (adminCount <= 1) {
+                    throw new IllegalStateException("系统必须保留至少一个管理员");
+                }
+            }
+            user.setRole(request.getRole());
+            roleIsChanged = true;
+        }
+
+        // 修改他人信息权限检查
         if (!currentUser.getRole().equals(UserRole.ADMIN) && !user.getId().equals(currentUser.getId())) {
             throw new AccessDeniedException("无权限修改其他用户信息");
         }
 
+        // 基础信息更新
         if (request.getEmail() != null && !request.getEmail().equals(user.getEmail())) {
             if (userRepository.existsByEmail(request.getEmail())) {
                 throw new UserAlreadyExistsException("邮箱已存在");
@@ -86,7 +106,13 @@ public class UserServiceImpl implements UserService {
             user.setStatus(request.getStatus());
         }
 
-        return userMapper.toResponse(userRepository.save(user));
+        UserResponse response = userMapper.toResponse(userRepository.save(user));
+
+        if (roleIsChanged) {
+            // 角色变更后强制登出该用户
+            jwtTokenProvider.invalidateAllUserTokens(user.getUsername());
+        }
+        return response;
     }
 
     @Override
@@ -119,7 +145,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     @Transactional
-    public void deleteUser(Long id) {
+    public synchronized void deleteUser(Long id) {
         User user = getUserOrThrow(id);
 
         if (user.getRole().equals(UserRole.ADMIN)) {
@@ -130,6 +156,8 @@ public class UserServiceImpl implements UserService {
         }
 
         userRepository.delete(user);
+        // 强制登出被删除用户
+        jwtTokenProvider.invalidateAllUserTokens(user.getUsername());
     }
 
     @Override

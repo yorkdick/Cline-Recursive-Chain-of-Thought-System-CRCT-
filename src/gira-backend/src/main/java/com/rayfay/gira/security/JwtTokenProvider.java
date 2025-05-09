@@ -17,12 +17,16 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.Map;
+import org.springframework.scheduling.annotation.Scheduled;
 
 @Component
 @RequiredArgsConstructor
 public class JwtTokenProvider {
 
-    private final Set<String> blacklistedTokens = new HashSet<>();
+    private final Set<String> blacklistedTokens = ConcurrentHashMap.newKeySet();
+    private final Map<String, Set<String>> userTokens = new ConcurrentHashMap<>();
 
     @Value("${security.jwt.secret}")
     private String secretKey;
@@ -113,5 +117,42 @@ public class JwtTokenProvider {
 
     public boolean isTokenBlacklisted(String token) {
         return blacklistedTokens.contains(token);
+    }
+
+    public void addUserToken(String username, String token) {
+        userTokens.computeIfAbsent(username, k -> ConcurrentHashMap.newKeySet()).add(token);
+    }
+
+    public void invalidateAllUserTokens(String username) {
+        Set<String> tokens = userTokens.remove(username);
+        if (tokens != null) {
+            blacklistedTokens.addAll(tokens);
+        }
+    }
+
+    public void removeUserToken(String username, String token) {
+        Set<String> tokens = userTokens.get(username);
+        if (tokens != null) {
+            tokens.remove(token);
+        }
+    }
+
+    @Scheduled(fixedRate = 3600000) // 每小时清理一次
+    public void cleanupExpiredTokens() {
+        blacklistedTokens.removeIf(token -> {
+            try {
+                return isTokenExpired(token);
+            } catch (Exception e) {
+                return true;
+            }
+        });
+
+        userTokens.values().forEach(set -> set.removeIf(token -> {
+            try {
+                return isTokenExpired(token);
+            } catch (Exception e) {
+                return true;
+            }
+        }));
     }
 }

@@ -3,6 +3,7 @@ package com.rayfay.gira.controller;
 import com.rayfay.gira.dto.request.CreateUserRequest;
 import com.rayfay.gira.dto.request.UpdateUserRequest;
 import com.rayfay.gira.dto.request.UpdatePasswordRequest;
+import com.rayfay.gira.entity.UserRole;
 import com.rayfay.gira.dto.response.UserResponse;
 import com.rayfay.gira.entity.User;
 import com.rayfay.gira.mapper.UserMapper;
